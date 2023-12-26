@@ -2,6 +2,11 @@
   "namespaces": [
     "chunk_scan"
   ],
+  "ignored_files": [
+    "translations",
+    "build-output",
+    "build.bat"
+  ],
   "dependencies": [
     {
       "name": "Lantern Load",
