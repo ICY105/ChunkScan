@@ -5,7 +5,8 @@
   "ignored_files": [
     "translations",
     "build-output",
-    "build.bat"
+    "build.bat",
+    "upgrade.bat"
   ],
   "dependencies": [
     {
