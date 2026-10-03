@@ -1,9 +1,23 @@
-[
-  {
-    "condition": "minecraft:inverted",
-    "term": {
-      "condition": "minecraft:location_check",
-      "offsetY": -1,
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:inverted",
+      "term": {
+        "type": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "light": {
+            "light": {
+              "min": 0,
+              "max": 15
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:location_check",
       "predicate": {
         "light": {
           "light": {
@@ -13,16 +27,5 @@
         }
       }
     }
-  },
-  {
-    "condition": "minecraft:location_check",
-    "predicate": {
-      "light": {
-        "light": {
-          "min": 0,
-          "max": 15
-        }
-      }
-    }
-  }
-]
+  ]
+}
