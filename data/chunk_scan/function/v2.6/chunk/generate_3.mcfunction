@@ -1,11 +1,11 @@
 
 execute positioned ~ 0 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate
-execute positioned ~ -16 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate 
-execute positioned ~ -32 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate 
-execute positioned ~ -48 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate 
-execute positioned ~ -64 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate 
-execute positioned ~ -80 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate 
-execute positioned ~ -96 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate 
+execute positioned ~ -16 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate
+execute positioned ~ -32 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate
+execute positioned ~ -48 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate
+execute positioned ~ -64 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate
+execute positioned ~ -80 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate
+execute positioned ~ -96 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate
 execute positioned ~ -112 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate
 execute positioned ~ -128 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate
 execute positioned ~ -144 ~ if predicate chunk_scan:world_bottom run function #chunk_scan:v2/generate
